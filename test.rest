@@ -1,0 +1,19 @@
+
+GET http://localhost:13000/setup
+
+
+###
+
+POST http://localhost:13000/ticket
+Content-Type: application/json
+
+{
+  "name": "Joao Vitor",
+  "birthdate": "1990-01-01",
+  "cpf": "12345678901"
+}
+
+
+###
+
+GET http://localhost:13000/ticket/3b3f37cf5566fdb90fa3a5d40e552d33
